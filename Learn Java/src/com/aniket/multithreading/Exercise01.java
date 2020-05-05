@@ -1,3 +1,5 @@
+package com.aniket.multithreading;
+
 class Processor implements Runnable {
     public Processor() {
         System.out.println("It is getting initiated in a runnable!!");
@@ -39,7 +41,7 @@ class Runner extends Thread{
 
 public class Exercise01 {
 
-    public static void main(String args[]){
+    public static void main(String[] args){
         System.out.println("I still can do it!");
 
         Runner run1 = new Runner("Thread-run1");
