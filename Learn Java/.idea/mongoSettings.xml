@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MongoConfiguration">
+    <option name="serverConfigurations">
+      <list>
+        <ServerConfiguration>
+          <option name="authenticationDatabase" value="admin" />
+          <option name="label" value="Aniket Mongo Cluster" />
+          <option name="password" value="aniket123" />
+          <option name="serverUrls">
+            <list>
+              <option value="aniket-cluster-shard-00-02-3w7vr.gcp.mongodb.net:27017" />
+              <option value="aniket-cluster-shard-00-00-3w7vr.gcp.mongodb.net:27017" />
+              <option value="aniket-cluster-shard-00-01-3w7vr.gcp.mongodb.net:27017" />
+            </list>
+          </option>
+          <option name="sshTunnelingConfiguration">
+            <SshTunnelingConfiguration />
+          </option>
+          <option name="userDatabase" value="sample_airbnb" />
+          <option name="username" value="aniket" />
+        </ServerConfiguration>
+        <ServerConfiguration>
+          <option name="authenticationDatabase" value="admin" />
+          <option name="label" value="MT00 - Course database" />
+          <option name="password" value="m001-mongodb-basics" />
+          <option name="serverUrls">
+            <list>
+              <option value="cluster0-shard-00-00-jxeqq.mongodb.net:27017" />
+            </list>
+          </option>
+          <option name="sshTunnelingConfiguration">
+            <SshTunnelingConfiguration />
+          </option>
+          <option name="userDatabase" value="admin" />
+          <option name="username" value="m001-student" />
+        </ServerConfiguration>
+      </list>
+    </option>
+  </component>
+</project>
