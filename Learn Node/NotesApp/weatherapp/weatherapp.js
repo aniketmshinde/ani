@@ -23,8 +23,9 @@ request( {url: "http://api.weatherstack.com/current?access_key=da79c84a605c3f9ff
         //challenge # 1 goes here
         console.log("It is currently %f and feels likes %f", response.body.current.temperature,
             response.body.current.feelslike)
-        console.log("It is currently %f degree out there and there are %f% of change of rain. And it's %s weather conditions.",
+        console.log("It is currently %f degree out there and there are %f% of change of rain. And it's %s weather conditions with visibility of $f meters",
             response.body.current.temperature,
             response.body.current.precip,
-            response.body.current.weather_descriptions[0])
+            response.body.current.weather_descriptions[0],
+            response.body.current.visibility)
     })
